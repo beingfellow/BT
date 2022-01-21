@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import EndpointOne from './components/EndpointOne';
-import { Ajax } from "react-superagent";
 import DoughnutTable from './components/DoughnutTable';
 import React from 'react';
 
@@ -29,9 +27,3 @@ class App extends React.Component {
 }
 
 export default App;
-// thebteam.free.beeceptor.com/data
-{/* <Ajax url='https://google.com' method='get' send={{some: 'data'}}>{
-            ({error, response, done}) => !done ?
-            <div>loading...</div> :
-            <div>loaded! {JSON.stringify(response)}</div>
-          }</Ajax> */}
