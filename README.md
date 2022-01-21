@@ -7,7 +7,7 @@ First clone the repo:
 
  then open the `BT/doughnut` directory
 
-#### `cd BT/doughnut/`
+#### `cd BT/doughnuts/`
 
 Install the module:
 
