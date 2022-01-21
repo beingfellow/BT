@@ -1,19 +1,19 @@
 # BT
 Button and interactive doughnut with table.
 
-## First clone the repo:
+First clone the repo:
 
-### `git clone https://github.com/beingfellow/BT.git`
+#### `git clone https://github.com/beingfellow/BT.git`
 
-## then open the `BT/doughnut` directory
+ then open the `BT/doughnut` directory
 
-### `cd BT/doughnut/`
+#### `cd BT/doughnut/`
 
-## install the module:
+Install the module:
 
-### `npm install`
+#### `npm install`
 
-## start the app:
+start the app:
 
-### `npm start`
+#### `npm start`
 
