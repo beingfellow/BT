@@ -1,13 +1,13 @@
 # BT
 Button and interactive doughnut with table.
 
-## to run:
+## First clone the repo:
 
 ### `git clone https://github.com/beingfellow/BT.git`
 
 ## then open the `BT/doughnut` directory
 
-### `cd BT/doughnut/` (mac and linux)
+### `cd BT/doughnut/`
 
 ## install the module:
 
