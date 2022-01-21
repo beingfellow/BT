@@ -2,25 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-#coin {
-  text-align: center;
-  pointer-events: none;
-  width: 80vw;
-  overflow-wrap: break-word;
-  height: calc(100vw * (9/16));
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: whitesmoke;
   min-height: 140vh;
@@ -31,21 +12,6 @@
   font-size: calc(10px + 2vmin);
   color: rgb(15, 14, 14);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 
 .medium1 {
   position: relative;
@@ -79,7 +45,6 @@
   right: 0%;
   top: 0%;
   bottom: 0%;
-
   background: linear-gradient(180deg, #F37370 0%, #F4994D 100%), #C4C4C4;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -99,7 +64,6 @@
   right: 3.57%;
   top: 16.67%;
   bottom: 16.67%;
-
   background: linear-gradient(90.05deg, #F7F7F7 0.04%, #CECECE 99.96%);
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -152,15 +116,18 @@
     font-variant: small-caps;
     text-transform: uppercase;
 }
+
 .line0 {
   background-color: #FDD32F;
 }
+
 .line1 {
   background-color: #FD7C50;
 }
 .line2 {
   background-color: #FD306D;
 }
+
 .line3 {
   background-color: #3DABFC;
 }
@@ -173,10 +140,6 @@
   background-color: lightgrey;
 }
 
-/* .tableName > tr > tbody{
-
-} */
-
 .Btable {
   position:absolute;
   width: 100%;
@@ -184,8 +147,6 @@
 }
 .tableground {
   position: relative;
-  /* width: 100%;
-  top: 110%; */
 }
 
 table {
@@ -196,11 +157,8 @@ table {
   width: 100%;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
-
-/* .tr1 {
-  background-color: "white";
-} */
 
 thead {
   border-bottom: 2px solid #000;;
@@ -214,32 +172,30 @@ tr{
 tr.last {
    border-bottom: none;
 }
+
+tr.last > td:nth-child(1) {
+  border-bottom-left-radius:10px;
+}
+tr.last > td:nth-child(3) {
+  border-bottom-right-radius:10px;
+}
+
 td+td, th {
   height: 50px;
   width: 30%;
 }
 
-
 td+td+td {
   color: green;
 }
+
 .tableholder{
   position: absolute;
   padding-top: 10%;
-  /* top: 110%;
-  left: 5%;
-  right:5%; */
-  
-
 }
+
 .tableGround {
   position: absolute;
   
   left: 10%;
 }
-/* "#FDD32F",
-  "#FD7C50",
-  "#FD306D",
-  "#3DABFC",
-  "#8817FC",
-  "lightgrey", */
