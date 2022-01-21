@@ -1,5 +1,6 @@
 # BT
-Just few charts.
+Button and interactive doughnut with table.
+
 ## to run:
 
 ### `git clone https://github.com/beingfellow/BT.git`
