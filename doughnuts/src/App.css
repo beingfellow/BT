@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#coin {
+  text-align: center;
+  pointer-events: none;
+  width: 80vw;
+  overflow-wrap: break-word;
+  height: calc(100vw * (9/16));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 140vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: rgb(15, 14, 14);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.medium1 {
+  position: relative;
+  width: 196px;
+  height: 42px;
+}
+
+.BTButton {
+  position: absolute;
+  left: 4.59%;
+  right: 3.57%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Helvetica Now Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #4E4B4B;
+  text-align: center;
+  width: 92%;
+  border: none;
+  background: transparent;
+}
+
+.rectangle1 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: linear-gradient(180deg, #F37370 0%, #F4994D 100%), #C4C4C4;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: solid 2px transparent;
+  border-color: linear-gradient(1deg, #ffffff 0.04%, #CECECE 99.96%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.rectangle1:active{
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle2 {
+  position: absolute;
+  left: 4.59%;
+  right: 3.57%;
+  top: 16.67%;
+  bottom: 16.67%;
+
+  background: linear-gradient(90.05deg, #F7F7F7 0.04%, #CECECE 99.96%);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.textHolder {
+  margin: 0 auto 0 auto;
+}
+
+.medium2 {
+  font-family: Montserrat;
+  width: 70%;
+  max-width: 400px;
+  min-height: 786px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e8e8e8;
+}
+
+.weight {
+  position: absolute;
+  left: 41%;
+  top: 40%;
+  background-color: transparent;
+  font-size: 130%;
+}
+
+.doughnut {
+  position: relative;
+  width: 90%;
+}
+
+.underline {
+  position: absolute;
+  height: 2px;
+  width: 19%;
+  left: 41%;
+  top: 53%;
+
+}
+
+.doughnutTitle {
+  position: absolute;
+    width: 37%;
+    left: 32%;
+    top: 57%;
+    font-size: 39%;
+    font-feature-settings: "smcp";
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+.line0 {
+  background-color: #FDD32F;
+}
+.line1 {
+  background-color: #FD7C50;
+}
+.line2 {
+  background-color: #FD306D;
+}
+.line3 {
+  background-color: #3DABFC;
+}
+
+.line4 {
+  background-color: #8817FC;
+}
+
+.line5 {
+  background-color: lightgrey;
+}
+
+/* .tableName > tr > tbody{
+
+} */
+
+.Btable {
+  position:absolute;
+  width: 100%;
+  background-color: transparent;
+}
+.tableground {
+  position: relative;
+  /* width: 100%;
+  top: 110%; */
+}
+
+table {
+  font-size: 40%;
+  table-layout: fixed;
+  border:none;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* .tr1 {
+  background-color: "white";
+} */
+
+thead {
+  border-bottom: 2px solid #000;;
+}
+td {
+  width: 30%;
+}
+tr{
+  border-bottom: 1px solid #4E4B4B
+}
+tr.last {
+   border-bottom: none;
+}
+td+td, th {
+  height: 50px;
+  width: 30%;
+}
+
+
+td+td+td {
+  color: green;
+}
+.tableholder{
+  position: absolute;
+  padding-top: 10%;
+  /* top: 110%;
+  left: 5%;
+  right:5%; */
+  
+
+}
+.tableGround {
+  position: absolute;
+  
+  left: 10%;
+}
+/* "#FDD32F",
+  "#FD7C50",
+  "#FD306D",
+  "#3DABFC",
+  "#8817FC",
+  "lightgrey", */
