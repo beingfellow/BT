@@ -2,9 +2,9 @@ import React, { useState, useEffect} from 'react';
 import { useTable } from 'react-table';
 import { chartColors } from './colors';
 import 'chart.js/auto';
-import {Chart, Doughnut } from "react-chartjs-2";
+import {Doughnut } from "react-chartjs-2";
 import giftCardData from "./giftCardData";
-// import BTable from './BTable';
+// import { Ajax } from "react-superagent";
 
 
 export default function DoughnutTable() {
@@ -72,10 +72,6 @@ export default function DoughnutTable() {
 
       // createTable(cardsData);
       
-      
-
-
-
       // Close fetch function and error:
       //    },
       //    // Handle errors instead of a catch() block 
@@ -125,20 +121,18 @@ export default function DoughnutTable() {
           <div className="weight">{`${weight}%`}</div>
           <div className={`underline line${cardsId}`}></div>
           <div className = "doughnutTitle">{company}</div>
+          
           <div className="BTable"/>
             <div className="tableground">
               <div div className="tableholder">
                 <table className="tablename">
-                
                   <thead>
                     <tr>
                       <th>ID</th>
                       <th>NAME</th>
                       <th>Quantity</th>
                     </tr>
-                  </thead>
-
-                  
+                  </thead>            
                   <tbody>
                       {renderTableData(cardsData)}
                   </tbody>
