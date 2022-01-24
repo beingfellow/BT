@@ -12,7 +12,7 @@ export default function DoughnutTable() {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     // const [cardsData, setcardsData] = useState({});
-    const [volume, setVolume] = useState([]);
+    const [volume, setVolume] = useState({});
     const [weight, setWeight] = useState(0);
     const [cardsId, setCardsId] = useState(null);
     const [company, setCompany] = useState("");
@@ -40,7 +40,7 @@ export default function DoughnutTable() {
     const btcards = giftCardData.data
     return btcards.map((btcard, index) => {
        return (
-          <tr className={`trs ${index===5?"last":""}`} id = {`tr${index}`}>
+          <tr key={index} className={`trs ${index===5?"last":""}`} id = {`tr${index}`}>
              <td >{btcard.id}</td>
              <td>{btcard.name}</td>
              <td>{btcard.quantity}</td>
@@ -124,7 +124,7 @@ export default function DoughnutTable() {
           
           <div className="BTable"/>
             <div className="tableground">
-              <div div className="tableholder">
+              <div className="tableholder">
                 <table className="tablename">
                   <thead>
                     <tr>
